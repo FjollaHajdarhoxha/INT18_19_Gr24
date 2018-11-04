@@ -3,6 +3,19 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+    a:link {
+    color: rgb(177, 32, 32);
+}
+a:visited {
+    color:rgb(177, 32, 32) ;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
 body {
     color: grey;
      
@@ -25,6 +38,26 @@ body {
     display: table;
     clear: both;
 }
+.button{
+    background-color: rgb(187, 36, 36);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 4px;
+    background-color: rgb(51, 47, 47);
+    border: none;
+    font size: 14px;
+}
+
+
 </style>
 </head>
 <body>
@@ -43,6 +76,8 @@ body {
             urnaretra lor urna neque sed quis orci nulla.
             Laoremut vitae doloreet.</p>
             <br>
+           
+            
           
             <a href="https://www.lipsum.com/">Read more  &#8921;</a>
             
@@ -56,11 +91,14 @@ body {
   <div class="column" style="background-color:#282828;">
     <h2>Newsletter</h2>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-    <input type="text" name="Emri"/>
+    <div>
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="name" placeholder="Name">
+                <input type="text" id="lname" name="email" placeholder="Email">
     <br>
-    <input type="text" name="Email"/>
     <br>
-<input type ="submit" value="Submit"/>
+    <button class="button">SUBMIT</button>
+
   </div>
 </div>
 
