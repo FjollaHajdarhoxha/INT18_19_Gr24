@@ -4,15 +4,14 @@
 <title> </title>
 </head>
 <body>
-<table cell spacing="30">
+<table cell spacing="35">
 <col width="40%">
 <col width="60%">
-
 <tr>
-
-<td>  
-        <p style="font-size:30px;">Lorem ipsum doloret sit ama</p> 
-        <p> 
+<td><p style="font-size:30px;">Lorem ipsum doloret sit amat</p>   
+    
+       <p >
+                Informacionet kryesore per Rubinin
             Një rubin është një gur i çmuar në ngjyrë rozë me ngjyrë të kuqe,një shumëllojshmëri 
                 e korundit mineral (oksid alumini).
                  Llojshmeritë e tjera të gurëve të çmuar quhen safire. 
@@ -22,39 +21,42 @@
                 ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
                 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
                 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                
+                ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
             </p>
             </td>
             <td>
-                
-            <table cellpadding="15">
-            <col width="50%">
-            <col width="50%">
+            <table cellpadding="30">
+            <col width="40%">
+            <col width="60%">
             <tr>
-                    <p style="font-size:30px;">Lorem ipsum doloret sit ama</p>  
-            <td> 
+            <td>
+                <p style="font-size:30px;">Lorem ipsum  </p> 
                     
-                 <pre><strong>Name goes here.</strong><img src="rubinstone.jpg" alt="Rubin Stone" width="60" height="60" align="left">             
+            <pre><strong>Name goes here.</strong><img src="rubinstone.jpg" alt="Rubin Stone" width="60" height="60" align="left">             
 Temper inte interdum
 sem pus odio urna eget
-<a style="color:red;" href=”www.facebook.com”> View profile> </a> </pre>
+<a style="color:red;" href=”www.facebook.com”> View profile </a>> </pre>
 </td>
-<td>
+<td><br>
+    <br>
+    <br>
 <pre><strong>Name goes here.</strong><img src="rubinstone.jpg" alt="Rubin Stone" width="60" height="60" align="left">             
 Temper inte interdum
 sem pus odio urna eget
-<a style="color:red;" href=”www.facebook.com”> View profile> </a> </pre>
+<a style="color:red;" href=”www.facebook.com”> View profile </a>> </pre>
 </td>
 </tr>
+<tr>
 <td><pre><strong>Name goes here.</strong><img src="rubinstone.jpg" alt="Rubin Stone" width="60" height="60" align="left">             
 Temper inte interdum
 sem pus odio urna eget
-<a style="color:red;" href=”www.facebook.com”> View profile> </a> </pre> </td> 
+<a style="color:red;" href=”www.facebook.com”> View profile </a>> </pre> </td> 
 <td><pre><strong>Name goes here.</strong><img src="rubinstone.jpg" alt="Rubin Stone" width="60" height="60" align="left">             
 Temper inte interdum
 sem pus odio urna eget
-<a style="color:red;" href=”www.facebook.com”> View profile> </a> </pre> </td> 
-
+<a style="color:red;" href=”www.facebook.com”> View profile </a>> </pre> </td> 
+</tr>
 </table>
 </td>
 </table>
