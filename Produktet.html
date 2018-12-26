@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<title>Aksesoret</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="body.html">
+
+<style>
+
+.mySlides {display:none;}
+
+
+
+
+.row {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.row2 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+.column {
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  
+
+}
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+</style>
+<body>
+
+
+
+<div class="content display-container">
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="2.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+
+</div>
+
+<script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+
+
+<div class="row">
+
+        <div class="column">
+<div class="card">
+        <img src="r1.jpg" alt="OW ring" style="width:100%">
+        <h1>Oliwer Weber</h1>
+        <p class="price">$68</p>
+        <p>Ring Extase rhodium chrome L</p>
+        
+    </div>
+        </div>
+
+        
+        <div class="column">
+      <div class="card" >
+            <img src="r2.jpg" alt="OW ing nr.2" style="width:100%">
+            <h1>Oliwer Weber</h1>
+            <p class="price">$102</p>
+            <p>Ring Regal rhod. violet L</p>
+            
+     </div>
+        </div>
+
+        <div class="column">
+        <div class="card" >
+            <img src="r3.jpg" alt="OW ing nr.3" style="width:100%">
+            <h1>Oliwer Weber</h1>
+            <p class="price">$48</p>
+            <p>Ring Jolie 925AG rhod. green</p>
+            
+     </div>
+
+        </div>
+
+        <div class="column">
+     <div class="card" >
+            <img src="r4.jpg" alt="Swarovski nr1" style="width:100%">
+            <h1>Swarovski</h1>
+            <p class="price">$118</p>
+            <p>LOLLYPOP RING, BLACK, ROSE GOLD PLATING</p>
+            
+     </div>
+     </div>
+
+
+    </div>
+
+
+    <div class="row2">
+
+            <div class="column">
+    <div class="card">
+            <img src="r5.jpg" alt="P ring" style="width:100%">
+            <h1>Pandora</h1>
+            <p class="price">$168</p>
+            <p>Fairytale Tiara Ring, Clear CZ</p>
+            
+        </div>
+            </div>
+    
+            
+            <div class="column">
+          <div class="card" >
+                <img src="r7.jpg" alt="P ring nr.2" style="width:100%">
+                <h1>Pandora</h1>
+                <p class="price">$126</p>
+                <p>Classic Elegance Ring, Clear CZ</p>
+                
+         </div>
+            </div>
+    
+            <div class="column">
+            <div class="card" >
+                <img src="r9.jpg" alt="P ring nr.3" style="width:100%">
+                <h1>Pandora</h1>
+                <p class="price">$148</p>
+                <p>Vintage Elegance Ring, Clear CZ</p>
+                
+         </div>
+    
+            </div>
+    
+            <div class="column">
+         <div class="card" >
+                <img src="r10.jpg" alt="P nr.4" style="width:100%">
+                <h1>Pandora</h1>
+                <p class="price">$150</p>
+                <p>July Droplet Ring, Synthetic Ruby</p>
+                
+         </div>
+         </div>
+    
+    
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
