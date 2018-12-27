@@ -1,5 +1,10 @@
- h2{ 
+     h1{ 
    color:red;
+            }
+            h2{
+        color:crimson;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border:none;
             }
                     pre 
                     {
@@ -8,10 +13,11 @@ background: border-box #dddddd;
 font-size: large;
 width:77%;
   }
+ 
                     img 
                     {
-height:140;
-width:130;
+height:130;
+width:140;
 float:left;
                     }
                 table {
