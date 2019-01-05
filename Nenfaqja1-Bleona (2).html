@@ -1,6 +1,8 @@
-<!DOCTYPE>
-<html>
-        <header>
+<!DOCTYPE html>
+
+<html manifest="demo_html.appcache">
+
+<header>
     
         <head>
             <title>LUXURY JEWELLERY</title>
@@ -32,11 +34,11 @@
                         </font></td>
                         <td> <br><br>
                             <font size="2px"> 
-                                <a href="home.html">HOME</a>
+                                <a href="LJ.html">HOME</a>
                                 <a href="aboutus.html">ABOUT US</a>  
-                                <a href="rings.html">RINGS</a>
-                                <a href="earrings.html">EARRINGS</a> 
-                                <a href="bracelets.html">BRACELETS</a>
+                                <a href="Produktet-Rings.html">RINGS</a>
+                                <a href="Produktet-Earrings.html">EARRINGS</a> 
+                                <a href="Bracelet.html">BRACELETS</a>
                                 <a href="contactus.html">CONTACT US</a>
                                 
                             </font>
@@ -54,7 +56,11 @@
         
         </body>
 
+
+
     </header>
+</head>
+
 <body>
         <head>
                 <link rel="stylesheet" href="nenfaqe1b.css">
@@ -173,9 +179,49 @@ as a form of Sapphire (though some purplish-red colors may straddle the line of 
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
+ <div>
+
+
+                        <p>Click the button to get your coordinates.</p>
+
+                        <button onclick="getLocation()">Try It</button>
+                        
+                        <p id="demo"></p>
+                        
+                        <script>
+                        var x = document.getElementById("demo");
+                        
+                        function getLocation() {
+                          if (navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(showPosition, showError);
+                          } else { 
+                            x.innerHTML = "Geolocation is not supported by this browser.";
+                          }
+                        }
+                        
+                        function showPosition(position) {
+                          x.innerHTML = "Latitude: " + position.coords.latitude + 
+                          "<br>Longitude: " + position.coords.longitude;
+                        }
+                        
+                        function showError(error) {
+                          switch(error.code) {
+                            case error.PERMISSION_DENIED:
+                              x.innerHTML = "User denied the request for Geolocation."
+                              break;
+                            case error.POSITION_UNAVAILABLE:
+                              x.innerHTML = "Location information is unavailable."
+                              break;
+                            case error.TIMEOUT:
+                              x.innerHTML = "The request to get user location timed out."
+                              break;
+                            case error.UNKNOWN_ERROR:
+                              x.innerHTML = "An unknown error occurred."
+                              break;
+                          }
+                        }
+                        </script>
+                  </div>  
 
 </body>
 <footer>
